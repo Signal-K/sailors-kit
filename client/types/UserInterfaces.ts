@@ -1,0 +1,21 @@
+export interface UserPlanetData {
+    id: string;
+    content: string;
+    ticId: string;
+    type: string;
+    radius: number;
+    mass: number;
+    density: number;
+    gravity: number;
+    temperatureEq: number;
+    temperature: number;
+    smaxis: number;
+    orbital_period: number;
+    classification_status: string;
+    avatar_url: string;
+    created_at: string;
+    deepnote: string;
+    starSystems: number;
+    Faction: number;
+    lightkurve: string;
+};
